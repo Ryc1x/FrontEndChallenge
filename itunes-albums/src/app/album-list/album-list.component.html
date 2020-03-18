@@ -1,5 +1,14 @@
+<div class="text-center search-form">
+    <form class="mt-4">
+        <mat-form-field class="search-field">
+            <mat-label>Search for an Album</mat-label>
+            <input matInput placeholder="Name, aritist, etc..." name="search-bar" [(ngModel)]="searchText"/>
+        </mat-form-field>
+    </form>
+</div>
+
 <div class="cards-list">
-    <div class="album-cards" *ngFor="let album of albums">
+    <div class="album-cards" *ngFor="let album of albums | filter:searchText">
         <app-album [content]="album"></app-album>
     </div>
 </div>

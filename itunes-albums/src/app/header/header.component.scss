@@ -1,7 +1,19 @@
 #home {
-    font-size: 14pt;
+  font-size: 14pt;
 }
 
 a {
-    color: white;
+  color: white;
+}
+
+.author {
+  font-size: 10pt;
+  color: rgb(80, 100, 180);
+  margin-right: 0;
+}
+
+.fill-space {
+  // This fills the remaining space, by using flexbox.
+  // Every toolbar row uses a flexbox row layout.
+  flex: 1 1 auto;
 }

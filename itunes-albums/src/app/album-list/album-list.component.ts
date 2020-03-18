@@ -12,15 +12,15 @@ import { ItunesService } from '../itunes.service';
 
 export class AlbumListComponent implements OnInit {
 
-  albums;
-  searchText;
+  albums : Array<number>;
+  searchText : String;
 
   constructor(
     private itunesService: ItunesService,
   ) { }
 
   ngOnInit() {
-    this.albums = this.itunesService.get('https://itunes.apple.com/us/rss/topalbums/limit=100/json')
+    this.itunesService.get('https://itunes.apple.com/us/rss/topalbums/limit=100/json')
       .subscribe(
         data => {
           this.albums = data.feed.entry;
