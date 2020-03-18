@@ -1,3 +1,15 @@
+# Overview
+
+The application is implemented with Angular.js. Please go to `itunes-albums` folder to check for the code and instructions.
+
+The application have met all of the Novice and Intermediate requirements, and partially completed the Expert and Bonus requirements. 
+
+The following sections are the original README.md content.
+
+---
+
+
+
 Front End Challenge
 ====================
 
@@ -30,7 +42,6 @@ Choose one of the following routes for your journey.
 + Create and implement (using HTML, CSS and JS) a basic design 
 + Use a CSS Framework (Bootstrap, Foundation, Pure, etc.…)
 
-
 -------
 ### Intermediate
 
@@ -42,7 +53,6 @@ Choose one of the following routes for your journey.
 + Use SASS or LESS for custom CSS
 + Make use of CSS animations
 
-
 -------
 ### Expert
 
@@ -53,7 +63,6 @@ Choose one of the following routes for your journey.
 + Allow the top 100 to be searchable 
 + Allow the user to see more information about a selected Album
 + Host the website on the service of your choice (We enjoy cloud hosting like Azure or AWS, but we would also settle for a *.github.io address)
-
 
 -------
 ### Bonus Round
